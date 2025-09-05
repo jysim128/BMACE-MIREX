@@ -1,0 +1,23 @@
+# Core PyTorch stack (CUDA 11.8, Torch 2.1.1)
+torch==2.1.1+cu118
+torchvision==0.16.1+cu118
+torchaudio==2.1.1+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# Mamba SSM (CUDA 11, Torch 2.1 ABI=TRUE)
+mamba-ssm==2.2.5
+
+# Essential math / ML utilities
+numpy==1.24.4
+scipy==1.14.1
+scikit-learn==1.7.1
+einops==0.8.1
+
+# Audio & MIR
+librosa==0.10.2.post1
+soundfile==0.12.1
+mir-eval==0.7
+
+# Model utilities
+timm==0.9.16
+transformers==4.37.2
